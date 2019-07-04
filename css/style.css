@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* 基本レイアウト ここから↓ */
+@import url();
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    box-sizing: border-box;
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.logo {
+    width: 300px;
+    margin: 0px;
+}
+.gl_menu {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 6px;
+    list-style-type: none;
+}
+.gl_link {
+    display: block;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: #eee;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #666;
+}
+footer {
+    background-color: #222;
+}
+footer a {
+    color: #ddd;
+}
+.copy {
+    text-align: center;
+    color: #ccc;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+.info,.topics {
+    display: flex;
+    justify-content: space-around;
+}
+.news {
+    color: #008;
+}
+/* トップページ ここまで↑ */
+
+/* メンバー用ページ ここから↓ */
+.m_link {
+transition: color .3s;
+}
+/* メンバー用ページ ここまで↑ */
