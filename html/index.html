@@ -23,9 +23,9 @@
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-dark" href="labmem.html" target="_blank">研究室メンバー用</a>
             </nav>
-            <a class="btn btn-outline-secondary" href="#recruit">お問い合わせ</a>
+            <a class="btn btn-outline-secondary" href="contact.html"><i class="fa fa-envelope-o"></i>お問い合わせ</a>
         </div>
-        <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary ">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,13 +43,17 @@
             </div>
         </nav>
     </header>
-    <div class="home-content container">
-        <h2 class="page-title">Welcome To Nakaguchi Labo</h2>
-        <p>中口研究室ではコンピュータ画像処理技術を活用して 診断支援・治療支援・生体計測に関する研究を行っています．</p>
+    <div class="home-content container my-5">
+        <div class="rows">
+            <div class="key-img col-12 col-md mb-5">
+                <h2 class="page-title mb-5">Welcome To Nakaguchi Labo</h2>
+                <p>中口研究室ではコンピュータ画像処理技術を活用して 診断支援・治療支援・生体計測に関する研究を行っています．</p>
+            </div>
+        </div>
     </div>
     <!--/.home-content-->
-    <div class="info container">
-        <h2>最近のニュース</h2>
+    <div class="info container my-5">
+        <h3>最近のニュース</h3>
         <dl>
             <dt>2019.5.18</dt>
             <dd>中口が横浜で開催された第2回医用VRセミナー「医学及び看護教育へのVR技術応用」において，「拡張模擬患者を実現するARシミュレータ」について講演しました</dd><br>
@@ -71,7 +75,7 @@
     </div>
     <!--ツイッタータイムライン-->
     <div class="topics container">
-        <h2>気になる話題</h2>
+        <h3>気になる話題</h3>
         <ul class="slider">
             <li><img src="images/photo1.jpg"></li>
             <li><img src="images/photo2.jpg"></li>
@@ -89,7 +93,7 @@
                 </div>
                 <!--/.col-12 col-md-->
                 <!--footerLink-->
-                <div class="col-6 col-md">
+                <div class="col-12 col-md">
                     <h5 class="font-weight-bold text-muted pl-3">千葉大学関係</h5>
                     <ul class="list-group list-group-flush list-unstyled text-left mt-3 mb-4">
                         <li><a href="http://www.chiba-u.ac.jp/" target="_blank">千葉大学</a></li>
@@ -108,6 +112,9 @@
                         <li><a href="http://www.acm.org/" target="_blank">ACM</a></li>
                         <li><a href="http://www.miccai.org/" target="_blank">MICCAI</a></li>
                         <li><a href="http://www.siggraph.org/" target="_blank">SIGGRAPH</a></li>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="list-group list-group-flush list-unstyled text-left mt-5 mb-4">
                         <li><a href="http://www.ieice.org/" target="_blank">電子情報通信学会</a></li>
                         <li><a href="http://www.jamit.jp/" target="_blank">日本医用画像工学会</a></li>
                         <li><a href="http://www.jsmbe.or.jp/" target="_blank">日本生体医工学会</a></li>
@@ -117,17 +124,17 @@
                         <li><a href="http://www.jsap.or.jp/" target="_blank">応用物理学会</a></li>
                     </ul>
                 </div>
-                <p class="copy">Copyright: &copy; Nakaguchi Lab. Chiba Univ. 2011 All rights reserved.</p>
+                <div class="container">
+                    <p class="copy">Copyright: &copy; Nakaguchi Lab. Chiba Univ. 2011 All rights reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/holder.min.js"></script>
-
     <script>
-    $(function() {
+        $(function() {
         var topBtn = $('#backbtn');
         topBtn.hide();
         $(window).scroll(function () {
@@ -145,7 +152,7 @@
         });
     });
 </script>
-<button type="button" class="btn btn-secondary" id="backbtn">トップに戻る <span class="badge badge-light"><i class="fa fa-arrow-up"></i></span></button>
+    <button type="button" class="btn btn-secondary" id="backbtn">トップに戻る <span class="badge badge-light"><i class="fa fa-arrow-up"></i></span></button>
 </body>
 
 </html>

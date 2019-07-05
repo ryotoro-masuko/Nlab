@@ -1,3 +1,19 @@
 @charset "UTF-8";
 @import "bootstrap";
 
+.key-img {background-image: url(images/sample.jpg);}
+
+.nav-item {
+    color: #fff;
+}
+
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+.mgr-80 {
+    margin-right: 80px;
+}
+.mgr-30 {
+    margin-right: 30px;
+}
